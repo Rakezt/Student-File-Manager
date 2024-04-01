@@ -69,7 +69,7 @@ const studentsSlice = createSlice({
       })
       .addCase(fetchStudents.rejected, (state, action) => {
         state.status = "error";
-        state.error = action.error.message;
+        state.error = "Backend Server is Off";
       })
       .addCase(addStudentAsync.pending, (state) => {
         state.status = "loading";
