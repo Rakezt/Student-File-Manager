@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+#Student File Manager
+<img width="956" alt="image" src="https://github.com/Rakezt/Student-File-Manager/assets/110081692/fa5527c7-45f7-4833-a619-a071a0180d11">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Overview
+The Student File Manager is a full-stack web application built using React.js, Redux, Express.js, MongoDB, and Node.js. It provides a comprehensive solution for managing student information, including CRUD operations (Create, Read, Update, Delete) for student records.
 
-## Available Scripts
+##Features
+Student Management: Add, view, edit, and delete student records with ease.
+Responsive Design: Mobile-friendly interface for seamless access on various devices.
+Data Persistence: Store student data in a MongoDB database for persistent storage.
+RESTful API: Utilize a RESTful API built with Express.js to handle backend operations.
+Redux State Management: Efficiently manage application state using Redux toolkit.
 
-In the project directory, you can run:
+##Installation
+To run the Student File Manager locally, follow these steps:
 
-### `npm start`
+Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Copy code
+git clone https://github.com/your-username/Student-File-Manager.git
+Install dependencies for both the frontend and backend:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+cd Student-File-Manager
+npm install
+cd client
+npm install
+Start the backend server:
 
-### `npm test`
+bash
+Copy code
+npm start
+Start the frontend development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd client
+npm start
+Access the application in your web browser at http://localhost:3000.
 
-### `npm run build`
+##Backend API
+The backend API for the Student File Manager is hosted on Replit. You can access the API using the following link:
+https://replit.com/@Rakezt/reduxtoolkit-student-management-API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure Backend server is running before testing the apps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##License
+This project is licensed under the YOURSWEETNIGHTMARE License.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
