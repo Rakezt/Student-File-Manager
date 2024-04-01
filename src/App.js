@@ -12,7 +12,11 @@ function App() {
       <Router>
         <div>
           <div className="navbar">
-            <div className="logo">Student Management System</div>
+            <div className="logo">
+              <Link to="/" className="logo-link">
+                School Student Manager
+              </Link>
+            </div>
             <nav>
               <ul>
                 <li>
